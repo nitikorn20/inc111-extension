@@ -2,7 +2,7 @@
 namespace INC111 {
 
     /**
-    * TODO: describe your function here
+    * Control Motor left and right.
     * @param m the m from -100 (min) to 100 (max), eg:0
     * @param n the n from -100 (min) to 100 (max), eg:0
     */
