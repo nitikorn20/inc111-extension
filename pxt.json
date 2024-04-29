@@ -1,5 +1,6 @@
 {
     "name": "INC111-Extension ",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
