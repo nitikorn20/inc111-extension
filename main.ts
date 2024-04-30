@@ -17,7 +17,7 @@ namespace INC111 {
         pins.digitalWritePin(DigitalPin.P15, 0)
         pins.digitalWritePin(DigitalPin.P16, 0)
 
-        if (m = 0)
+        if (m == 0)
         {
             pins.analogWritePin(AnalogPin.P8, 0)
         }
@@ -32,7 +32,7 @@ namespace INC111 {
             pins.analogWritePin(AnalogPin.P8, - m * 1023 / 100)
         }
 
-        if (n = 0) {
+        if (n == 0) {
             pins.analogWritePin(AnalogPin.P12, 0)
         }
         else if (n > 0) {
